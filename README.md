@@ -1,12 +1,12 @@
 # MovieReviewWebApplication
 
-#for backend
+# run backend
 
 cd backend
 npm install
 node server.js
 
-#for frontend
+# run frontend
 
 cd frontend
 npm install
