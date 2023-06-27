@@ -1,14 +1,29 @@
 # MovieReviewWebApplication
 
-# run backend
 
-cd backend
-npm install
-node server.js
 
-# run frontend
 
-cd frontend
-npm install
-npm run build
-npm run serve
+
+
+
+- Install dependencies for the backend:
+
+        cd frontend
+        npm install
+
+- Start the backend server:
+
+        node server.js
+
+- frontend install dependencies:
+
+        cd frontend
+        npm install
+
+- Build the frontend:
+
+        npm run build
+
+- Start the frontend server:
+
+        npm run serve
