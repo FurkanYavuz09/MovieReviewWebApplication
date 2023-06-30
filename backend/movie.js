@@ -1,5 +1,3 @@
-
-
 const mongoose = require('mongoose');
 
 const movieSchema = new mongoose.Schema({
@@ -21,11 +19,12 @@ const movieSchema = new mongoose.Schema({
     min: 0,
     max: 5,
   },
- 
+  reviews: [{
+    type: String,
+  }],
 });
 
 const Movie = mongoose.model('Movie', movieSchema);
 
 module.exports = Movie;
-
 
